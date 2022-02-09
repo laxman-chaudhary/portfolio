@@ -65,7 +65,7 @@ CREATE TABLE `category` (
 
 LOCK TABLES `category` WRITE;
 /*!40000 ALTER TABLE `category` DISABLE KEYS */;
-INSERT INTO `category` VALUES (1,'SEO','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'Webdesign','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'Work','2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'Wordpress','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `category` VALUES (1,'SEO','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'Webdesign','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'Work','2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'Web Hosting','2022-02-07 21:20:43','2022-02-09 17:46:19');
 /*!40000 ALTER TABLE `category` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,7 +93,7 @@ CREATE TABLE `contacts` (
 
 LOCK TABLES `contacts` WRITE;
 /*!40000 ALTER TABLE `contacts` DISABLE KEYS */;
-INSERT INTO `contacts` VALUES (1,'01830617500','example@email.com','202, Grasselli Street , Conway.','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `contacts` VALUES (1,'9842028183','admin@chaudharylaxman.com.np','New Baneshwor, Kathmandu','2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `contacts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -122,7 +122,7 @@ CREATE TABLE `experinces` (
 
 LOCK TABLES `experinces` WRITE;
 /*!40000 ALTER TABLE `experinces` DISABLE KEYS */;
-INSERT INTO `experinces` VALUES (1,'IT Officer','July 2019 - Oct 2019','fab fa-dribbble','DataHub','2022-02-07 21:20:43','2022-02-07 21:36:48'),(2,'IT Associate','Jan 2020 - Mar 2020','fab fa-twitter','Aloft Kathmandu Thamel','2022-02-07 21:20:43','2022-02-07 21:37:47'),(3,'IT Manager','Mar 2020 - Feb 2021','fab fa-google','Integrated Services','2022-02-07 21:20:43','2022-02-07 21:41:23'),(4,'IT Consultant','Mar 2020 - Feb 2021','fab fa-twitter','Meronetwork','2022-02-07 21:20:43','2022-02-07 21:42:24'),(5,'Nepse Alpha','Jan 2020 - Mar 2021','fab fa-twitter','Nepsealpha','2022-02-07 21:20:43','2022-02-07 21:43:00'),(6,'System Engineer','Feb 2021 - Present','fab fa-twitter','Telenet Pvt. Ltd.','2022-02-07 21:20:43','2022-02-07 21:43:36');
+INSERT INTO `experinces` VALUES (1,'DataHub','July 2019 - Oct 2019','fas fa-cloud','IT Officer','2022-02-07 21:20:43','2022-02-09 18:50:07'),(2,'Aloft Kathmandu Thamel','Jan 2020 - Mar 2020','fab fa-home','IT Associate','2022-02-07 21:20:43','2022-02-09 19:04:07'),(3,'Integrated Services','Mar 2020 - Feb 2021','fab fa-dropbox','IT Manager','2022-02-07 21:20:43','2022-02-09 19:03:24'),(4,'Meronetwork','Mar 2020 - Feb 2021','fab fa-google','IT Consultant','2022-02-07 21:20:43','2022-02-09 19:03:32'),(5,'Nepsealpha','Jan 2020 - Mar 2021','far fa-analytics','Consultant','2022-02-07 21:20:43','2022-02-09 18:58:33'),(6,'Telenet Pvt. Ltd. (Rameshcorp)','Feb 2021 - Present','fas fa-cloud','System Engineer','2022-02-07 21:20:43','2022-02-09 18:59:36');
 /*!40000 ALTER TABLE `experinces` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -369,7 +369,7 @@ CREATE TABLE `services` (
 
 LOCK TABLES `services` WRITE;
 /*!40000 ALTER TABLE `services` DISABLE KEYS */;
-INSERT INTO `services` VALUES (1,'frontend/img/service/4.png','Google Analytics','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'frontend/img/service/5.png','Digital Marketing','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'frontend/img/service/6.png','Content Managment','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'frontend/img/service/1.png','Web Development','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43'),(5,'frontend/img/service/2.png','Api integration','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43'),(6,'frontend/img/service/3.png','Srarch Engine','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `services` VALUES (1,'frontend/img/service/4.png','ERP & CRM','Provided training services on ERP softwares','2022-02-07 21:20:43','2022-02-09 18:37:31'),(2,'frontend/img/service/5.png','Digital Marketing','Lorem ipsum dolor sit amet consectetur adipisicing','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'frontend/img/service/6.png','IT Consultant','I can also provide you best Suggestion on Services','2022-02-07 21:20:43','2022-02-09 18:36:44'),(4,'frontend/img/service/1.png','Web Hosting','PHP, Wordpress, Node, Angular, Magento & SaaS, PaaS products','2022-02-07 21:20:43','2022-02-09 18:42:28'),(5,'frontend/img/service/2.png','Server Management','Can help you create cloud server, database & host web application','2022-02-07 21:20:43','2022-02-09 18:39:25'),(6,'frontend/img/service/3.png','QA','Test Analyst, Test Designer, Test Executor, and Test Manager','2022-02-07 21:20:43','2022-02-09 18:40:34');
 /*!40000 ALTER TABLE `services` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -425,7 +425,7 @@ CREATE TABLE `skills` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -434,7 +434,7 @@ CREATE TABLE `skills` (
 
 LOCK TABLES `skills` WRITE;
 /*!40000 ALTER TABLE `skills` DISABLE KEYS */;
-INSERT INTO `skills` VALUES (1,'Cloud Computing','95','2022-02-07 21:20:43','2022-02-07 21:45:26'),(2,'Linux OS','90','2022-02-07 21:20:43','2022-02-07 21:45:34'),(3,'Web Hosting','80','2022-02-07 21:20:43','2022-02-07 21:45:46'),(4,'Consultant','90','2022-02-07 21:20:43','2022-02-07 21:46:04');
+INSERT INTO `skills` VALUES (1,'Cloud Services','95','2022-02-07 21:20:43','2022-02-08 12:23:16'),(2,'Automation and Scripting','75','2022-02-08 12:23:41','2022-02-08 12:23:41'),(3,'Cloud Security and Monitoring','90','2022-02-08 21:16:59','2022-02-08 21:16:59'),(5,'DevOps','75','2022-02-09 17:02:53','2022-02-09 17:02:53'),(6,'Database Management','80','2022-02-09 17:03:12','2022-02-09 17:03:12'),(10,'Problem-Solving and Administration.','95','2022-02-09 17:04:17','2022-02-09 17:04:17'),(12,'Application Migration','90','2022-02-09 17:09:55','2022-02-09 17:09:55');
 /*!40000 ALTER TABLE `skills` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -461,7 +461,7 @@ CREATE TABLE `socials` (
 
 LOCK TABLES `socials` WRITE;
 /*!40000 ALTER TABLE `socials` DISABLE KEYS */;
-INSERT INTO `socials` VALUES (1,'fab fa-facebook','#','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'fab fa-linkedin','#','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'fab fa-instagram','#','2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'fab fa-pinterest','#','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `socials` VALUES (2,'fab fa-linkedin','https://www.linkedin.com/in/alexlaxu/','2022-02-07 21:20:43','2022-02-09 17:51:29'),(4,'fab fa-skype','alex-laxu','2022-02-07 21:20:43','2022-02-09 18:10:49');
 /*!40000 ALTER TABLE `socials` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -503,7 +503,7 @@ CREATE TABLE `tagline` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -512,7 +512,7 @@ CREATE TABLE `tagline` (
 
 LOCK TABLES `tagline` WRITE;
 /*!40000 ALTER TABLE `tagline` DISABLE KEYS */;
-INSERT INTO `tagline` VALUES (1,'Grapics Designer','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'Web Developer','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'Laravel Developer','2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'UI/UX Designer','2022-02-07 21:20:43','2022-02-07 21:20:43'),(5,'Frontend Developer','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `tagline` VALUES (1,'System Engineer','2022-02-08 10:55:25','2022-02-08 10:55:25'),(2,'Red  Hat Certified Engineer','2022-02-09 17:12:04','2022-02-09 17:12:04');
 /*!40000 ALTER TABLE `tagline` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -586,4 +586,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-07 21:55:14
+-- Dump completed on 2022-02-09 19:12:06
