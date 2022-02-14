@@ -489,16 +489,8 @@ input:focus{
     box-shadow:  7px 7px 15px #5959593d, 
              -7px -7px 15px #ffffff;
 }
-.about-hero-img {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-
-
-}
 .about-hero-img img {
-
-	width: auto;
+	width: 100%;
 	border-radius: 15px;
 	height: 32rem;
 }
