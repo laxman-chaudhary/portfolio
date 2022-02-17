@@ -83,7 +83,7 @@ class SkillController extends Controller
     public function update(Request $request, $id)
     {
          $validatedData = $request->validate([
-            'name' => 'required|max:15',
+            'name' => 'required',
             'percent' => 'required',
         ]);
         $skill= Skill::find($id);
