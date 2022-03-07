@@ -1,8 +1,8 @@
--- MariaDB dump 10.19  Distrib 10.6.5-MariaDB, for Linux (x86_64)
+-- MySQL dump 10.19  Distrib 10.3.32-MariaDB, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: portfolio_db
+-- Host: localhost    Database: portfolio
 -- ------------------------------------------------------
--- Server version	10.6.5-MariaDB
+-- Server version	10.3.32-MariaDB-0ubuntu0.20.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -39,7 +39,7 @@ CREATE TABLE `about` (
 
 LOCK TABLES `about` WRITE;
 /*!40000 ALTER TABLE `about` DISABLE KEYS */;
-INSERT INTO `about` VALUES (1,'My name is Laxman Chaudhary, I am System Engineer from Kathmandu, Nepal. I have rich experience in Linux OS and building and customization server, also I am good at hosting sites like laravel php, node application & installing SSL.','uploads/1644269649.pdf','uploads/1644269649.jpg','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `about` VALUES (1,'My name is Laxman, I am System Engineer from Kathmandu, Nepal. I have rich experience in Linux OS and building and customization server. Also I am good at hosting sites like Laravel php, node application & installing SSL.','uploads/1644269649.pdf','uploads/1644700446.jpg','2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `about` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -285,7 +285,7 @@ CREATE TABLE `portfolio` (
 
 LOCK TABLES `portfolio` WRITE;
 /*!40000 ALTER TABLE `portfolio` DISABLE KEYS */;
-INSERT INTO `portfolio` VALUES (1,'frontend/img/portfolio/1.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Creative Web Design</a> ',1,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'frontend/img/portfolio/2.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Attendence Mangment</a> ',2,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'frontend/img/portfolio/3.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Book Store Wocommerce</a> ',3,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'frontend/img/portfolio/4.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Multi Vendor Ecommerce</a> ',4,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(5,'frontend/img/portfolio/5.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Laravel Multi Authentication</a> ',5,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(6,'frontend/img/portfolio/6.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Creative Html5 Template</a> ',6,'2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `portfolio` VALUES (1,'frontend/img/portfolio/1.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Creative Web Design</a> ',1,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'frontend/img/portfolio/2.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Attendence Mangment</a> ',2,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(4,'frontend/img/portfolio/4.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Multi Vendor Ecommerce</a> ',4,'2022-02-07 21:20:43','2022-02-07 21:20:43'),(5,'frontend/img/portfolio/5.jpg','<a href=\"#\" target=\"_self\" id=\"link\">Laravel Multi Authentication</a> ',5,'2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `portfolio` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -312,7 +312,7 @@ CREATE TABLE `scripts` (
 
 LOCK TABLES `scripts` WRITE;
 /*!40000 ALTER TABLE `scripts` DISABLE KEYS */;
-INSERT INTO `scripts` VALUES (1,'','','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `scripts` VALUES (1,'<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-CM6NQH3EGY\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag(\'js\', new Date());\r\n\r\n  gtag(\'config\', \'G-CM6NQH3EGY\');\r\n</script>',NULL,'2022-02-07 21:20:43','2022-02-16 11:21:06');
 /*!40000 ALTER TABLE `scripts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -341,7 +341,7 @@ CREATE TABLE `seo` (
 
 LOCK TABLES `seo` WRITE;
 /*!40000 ALTER TABLE `seo` DISABLE KEYS */;
-INSERT INTO `seo` VALUES (1,'Vportfolio','','','','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `seo` VALUES (1,'Laxman Chaudhary','Laxman Chaudhary','Laxman Chaudhary','Laxman Chaudhary','2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `seo` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -407,7 +407,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'uploads/logo.png','uploads/favicon.ico',1,'mortfolio','uploads/home_bg.jpg','en',NULL,NULL,'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum exercitationem necessitatibus nobis maiores.','Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum exercitationem necessitatibus nobis maiores.','','Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.','#','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `settings` VALUES (1,'uploads/logo.png','uploads/favicon.ico',1,'www.chaudharylaxman.com.np','uploads/home_bg.jpg','en',NULL,NULL,'My Career Plan is to reach highest level in IT and give all my effort as company requires.',NULL,NULL,NULL,'www.chaudharylaxman.com.np','2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -420,12 +420,12 @@ DROP TABLE IF EXISTS `skills`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `skills` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `percent` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -434,7 +434,7 @@ CREATE TABLE `skills` (
 
 LOCK TABLES `skills` WRITE;
 /*!40000 ALTER TABLE `skills` DISABLE KEYS */;
-INSERT INTO `skills` VALUES (1,'Cloud Services','95','2022-02-07 21:20:43','2022-02-08 12:23:16'),(2,'Automation and Scripting','75','2022-02-08 12:23:41','2022-02-08 12:23:41'),(3,'Cloud Security and Monitoring','90','2022-02-08 21:16:59','2022-02-08 21:16:59'),(5,'DevOps','75','2022-02-09 17:02:53','2022-02-09 17:02:53'),(6,'Database Management','80','2022-02-09 17:03:12','2022-02-09 17:03:12'),(10,'Problem-Solving and Administration.','95','2022-02-09 17:04:17','2022-02-09 17:04:17'),(12,'Application Migration','90','2022-02-09 17:09:55','2022-02-09 17:09:55');
+INSERT INTO `skills` VALUES (1,'Cloud Services','95','2022-02-07 21:20:43','2022-02-08 12:23:16'),(2,'Automation and Scripting','75','2022-02-08 12:23:41','2022-02-08 12:23:41'),(3,'Cloud Security and Monitoring','90','2022-02-08 21:16:59','2022-02-08 21:16:59'),(5,'DevOps','75','2022-02-09 17:02:53','2022-02-09 17:02:53'),(7,'Problem-Solving and Administration','95','2022-02-09 17:04:17','2022-02-17 08:05:14'),(8,'Cloud Migration','90','2022-02-09 17:09:55','2022-02-17 08:05:33');
 /*!40000 ALTER TABLE `skills` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -541,7 +541,7 @@ CREATE TABLE `testimonials` (
 
 LOCK TABLES `testimonials` WRITE;
 /*!40000 ALTER TABLE `testimonials` DISABLE KEYS */;
-INSERT INTO `testimonials` VALUES (1,'Jhone Doe','frontend/img/profile/2.jpg','Xtream SoftTech','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'Jane Doe','frontend/img/profile/1.jpg','LionCoders','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'Mic Jhone','frontend/img/profile/3.jpg','XeonBD','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an','2022-02-07 21:20:43','2022-02-07 21:20:43');
+INSERT INTO `testimonials` VALUES (1,'Navankur Sood','frontend/img/profile/2.jpg','CEO @ Telenet','Coming Soon','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'Samir Shrestha','frontend/img/profile/1.jpg','CTO @ Telenet','Coming Soon','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'Rosy','frontend/img/profile/3.jpg','Sales Manager @ TDO','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an','2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `testimonials` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -573,7 +573,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Admin','uploads/1644268997.jpg','admin@chaudharylaxman.com.np',NULL,'$2y$10$uKNyjDTwwnBsR4aXX3kNwuELUoCBxx7RzBgf82UJ4Az3fJBW2rAGW',NULL,'2022-02-07 21:20:43','2022-02-07 21:23:17');
+INSERT INTO `users` VALUES (1,'Admin','uploads/1645188085.jpg','admin@chaudharylaxman.com.np',NULL,'$2y$10$uKNyjDTwwnBsR4aXX3kNwuELUoCBxx7RzBgf82UJ4Az3fJBW2rAGW',NULL,'2022-02-07 21:20:43','2022-02-18 04:41:25');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -586,4 +586,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-09 19:12:06
+-- Dump completed on 2022-03-08  5:12:40
