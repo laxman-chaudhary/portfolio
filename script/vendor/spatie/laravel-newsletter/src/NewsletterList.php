@@ -1,7 +1,7 @@
 <?php
 
 namespace Spatie\Newsletter;
-use DB;
+
 class NewsletterList
 {
     /** @var string */
@@ -18,12 +18,16 @@ class NewsletterList
 
     public function getId(): string
     {
-        $setting=DB::table('settings')->first();
-        return $setting->mailchimp_list_id;
+        return $this->properties['id'];
     }
 
     public function getName(): string
     {
         return $this->name;
+    }
+
+    public function getMarketingPermission(string $key): string
+    {
+        return $this->properties['marketing_permissions'][$key];
     }
 }

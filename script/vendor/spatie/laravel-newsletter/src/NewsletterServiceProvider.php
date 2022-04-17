@@ -4,7 +4,8 @@ namespace Spatie\Newsletter;
 
 use DrewM\MailChimp\MailChimp;
 use Illuminate\Support\ServiceProvider;
-use DB;
+use Spatie\Newsletter\NewsletterPermissions;
+
 class NewsletterServiceProvider extends ServiceProvider
 {
     protected $defer = false;
@@ -25,10 +26,8 @@ class NewsletterServiceProvider extends ServiceProvider
             if (is_null($driver) || $driver === 'log') {
                 return new NullDriver($driver === 'log');
             }
-            $setting=DB::table('settings')->first();
-             
 
-            $mailChimp = new Mailchimp($setting->mailchimp_api_key);
+            $mailChimp = new Mailchimp(config('newsletter.apiKey'));
 
             $mailChimp->verify_ssl = config('newsletter.ssl', true);
 
@@ -38,5 +37,9 @@ class NewsletterServiceProvider extends ServiceProvider
         });
 
         $this->app->alias(Newsletter::class, 'newsletter');
+
+        $this->commands([
+            NewsletterPermissions::class,
+        ]);
     }
 }
