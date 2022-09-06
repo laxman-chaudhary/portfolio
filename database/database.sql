@@ -1,8 +1,8 @@
--- MySQL dump 10.19  Distrib 10.3.32-MariaDB, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.19  Distrib 10.3.29-MariaDB, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: portfolio
+-- Host: localhost    Database: chau_portfolio
 -- ------------------------------------------------------
--- Server version	10.3.32-MariaDB-0ubuntu0.20.04.1
+-- Server version	10.3.29-MariaDB-0ubuntu0.20.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -541,7 +541,6 @@ CREATE TABLE `testimonials` (
 
 LOCK TABLES `testimonials` WRITE;
 /*!40000 ALTER TABLE `testimonials` DISABLE KEYS */;
-INSERT INTO `testimonials` VALUES (1,'Navankur Sood','frontend/img/profile/2.jpg','CEO @ Telenet','Coming Soon','2022-02-07 21:20:43','2022-02-07 21:20:43'),(2,'Samir Shrestha','frontend/img/profile/1.jpg','CTO @ Telenet','Coming Soon','2022-02-07 21:20:43','2022-02-07 21:20:43'),(3,'Rosy','frontend/img/profile/3.jpg','Sales Manager @ TDO','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an','2022-02-07 21:20:43','2022-02-07 21:20:43');
 /*!40000 ALTER TABLE `testimonials` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -573,7 +572,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Admin','uploads/1645188085.jpg','admin@chaudharylaxman.com.np',NULL,'$2y$10$uKNyjDTwwnBsR4aXX3kNwuELUoCBxx7RzBgf82UJ4Az3fJBW2rAGW',NULL,'2022-02-07 21:20:43','2022-02-18 04:41:25');
+INSERT INTO `users` VALUES (1,'Admin','uploads/1645188085.jpg','admin@chaudharylaxman.com.np',NULL,'$2y$10$/VRfWfHhD77cjEULD/yUsucxm7gcC7bXEl7BbdRS15IjAziz6i3TC',NULL,'2022-02-07 21:20:43','2022-03-07 13:37:58');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -586,4 +585,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-03-08  5:12:40
+-- Dump completed on 2022-09-06 15:19:23
